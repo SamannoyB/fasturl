@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    *{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } body {
+        min-height: 100vh;
+        min-width: 100vw;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background: #fafafa;
+    } .container {
+        height: 10cm;
+        width: 10cm;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 2px dashed #000;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 15px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+        color: #000;
+    } .container form {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } .container form input, button {
+        height: 1.4cm;
+        width: 80%;
+        border-radius: 5px;
+        margin: 15px;
+    } .container form input {
+        outline: none;
+        border: 1.5px solid #000;
+        padding: 20px;
+        font-size: 18px;;
+    } .container form button {
+        outline: none;
+        font-size: 18px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        border-radius: 7px;
+    } .container form button:hover {
+        outline: none;
+        font-size: 18px;
+        color: #000;
+        background-color: #fff;
+        border: 2px solid black;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>URL Shortener</h1>
+        <form action="/shorten" method="post">
+            <input type="url" name="url" id="url" class="url">
+            <button>Shorten Your Url Now!</button>
+        </form>
+    
+        <span>Made by <a href="https://github.com/samannoyb">Samannoy Bhattacharjee</a></span>
+    </div>
+</body>
+</html>
