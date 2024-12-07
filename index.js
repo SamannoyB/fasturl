@@ -6,6 +6,8 @@ const express = require('express');
 const ejs = require("ejs");
 const app = express();
 
+const PORT = process.env.PORT || 40787;
+
 app.use(express.urlencoded({ extended: false }))
 
 app.set('view engine', 'ejs');
@@ -32,11 +34,11 @@ app.post("/shorten", (req, res) => {
 
    console.log(randomUrl);
 
-   res.send(`Your new URL is: https://samannoyb.hackclub.app/${randomUrl}`);
+   res.render('page.ejs', { url: `https://${req.headers.host}/${randomUrl}`});
 
    app.get(`/${randomUrl}`, (req, res) => {
       res.redirect(url);
    });
 });
 
-app.listen(8080, () => console.log("App listening on port 8080!"));
+app.listen(PORT, () => console.log("App listening on port 8080!"));
