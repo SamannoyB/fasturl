@@ -5,8 +5,7 @@ FastURL is a lightweight and efficient URL shortener built using JavaScript. It 
 ## Features
 
 - ⚡ Fast and simple URL shortening
-- 🔗 Custom short URLs (if supported)
-- 📊 Analytics for shortened URLs (e.g., click counts) *(optional)*
+- 🔗 Custom short URLs 
 - 💻 Local or online hosting
 
 ## Usage
