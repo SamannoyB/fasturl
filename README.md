@@ -9,6 +9,6 @@ FastURL is a lightweight and efficient URL shortener built using JavaScript. It 
 - 💻 Local or online hosting
 
 ## Usage
-Visit (FastURL at HackClub)[https://www.fasturl.samannoyb.hackclub.com/]
+Visit [FastURL at HackClub](https://www.fasturl.samannoyb.hackclub.com/)
 
-Please vote for the (HighSeas)[https://highseas.hackclub.com/] ♥️♥️ project!
+Please vote for the [HighSeas](https://highseas.hackclub.com/) ♥️♥️ project!
