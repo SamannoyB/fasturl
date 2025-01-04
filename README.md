@@ -1,9 +1,15 @@
-# fasturl
-Url shortener
+# FastURL URL Shortener
 
-Just to shorten your URLs!
-Visit https://fasturl.samannoyb.hackclub.app and shorten your url now!
+FastURL is a lightweight and efficient URL shortener built using JavaScript. It allows you to quickly shorten long URLs into concise, shareable links.
 
-please vote my project at highseas!
+## Features
 
-Thanks for reading
+- ⚡ Fast and simple URL shortening
+- 🔗 Custom short URLs (if supported)
+- 📊 Analytics for shortened URLs (e.g., click counts) *(optional)*
+- 💻 Local or online hosting
+
+## Usage
+Visit (FastURL at HackClub)[https://www.fasturl.samannoyb.hackclub.com/]
+
+Please vote for the (HighSeas)[https://highseas.hackclub.com/] ♥️♥️ project!
